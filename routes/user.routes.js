@@ -36,7 +36,7 @@ userRouter.post("/login", async (req, res) => {
                 }
             })
         }else{
-            res.json({msg:"Please Login!!"});
+            res.json({msg:"Please Signup!!"});
         }
     } catch (error) {
         res.json({"error": error.message});
